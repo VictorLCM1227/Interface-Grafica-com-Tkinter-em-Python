@@ -10,3 +10,4 @@ lblMsg = tk.Label(janela, text='Olá, Mundo!')
 lblMsg.pack()
 
 # Exibir a janela
+janela.mainloop()
