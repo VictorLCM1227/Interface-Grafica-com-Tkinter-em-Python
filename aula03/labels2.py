@@ -19,3 +19,7 @@ label2 = ttk.Label(
     font=('Arial', 20),
     foreground='blue'
 )
+
+label2.pack(ipadx=10, ipady=60)
+
+janela.mainloop()
