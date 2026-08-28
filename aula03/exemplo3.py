@@ -35,6 +35,17 @@ janela.bind("<Configure>", centralizar_imagem)
 
 lbl_imagem.pack()
 
+lbl_boson = ttk.Label(
+    janela,
+    text='Bóson Treinamentos',
+    foreground='purple',
+    background='lightgreen',
+    anchor='center',
+    borderwidth=3,
+    relief='groove'
+)
+lbl_boson.pack(ipadx=10, ipady=20)
+
 centralizar_imagem()
 
 janela.mainloop()
